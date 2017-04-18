@@ -1,0 +1,17 @@
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/bin/Debug/TasteAdvisor.dll.mdb
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/bin/Debug/TasteAdvisor.dll
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/bin/Debug/com.ricardo.tasteadvisor.apk
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/android/bin/com.ricardo.tasteadvisor.apk
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/res/layout/main.xml
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/res/values/strings.xml
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/res/mipmap-hdpi/icon.png
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/res/mipmap-mdpi/icon.png
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/res/mipmap-xhdpi/icon.png
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/res/mipmap-xxhdpi/icon.png
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/R.cs.flag
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/bin/Debug/com.ricardo.tasteadvisor-Signed.apk
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/uploadflags.txt
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/TasteAdvisor.dll
+/Users/ricardolopes/Projects/TasteAdvisor/TasteAdvisor/obj/Debug/TasteAdvisor.dll.mdb
