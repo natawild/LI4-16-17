@@ -1,0 +1,2 @@
+tudojunto.mov filter=lfs diff=lfs merge=lfs -text
+Apresentação2fase.pptx filter=lfs diff=lfs merge=lfs -text
