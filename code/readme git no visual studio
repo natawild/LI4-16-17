@@ -1,0 +1,6 @@
+Como configurar o git no visual studio
+
+na barra de ação direita há um quadrado que tem gerenciador de soluções e team explorer, carreguem em team explorer e ele
+deve encontrar automaticamente o repositorio do git (se estiver na pasta default), se não vão a configurações / configurações globais e 
+metem la o diretorio da pasta onde esta o repositório (convem ter o git instalado, o git mesmo não o github desktop)
+apartir dai podem fazer sync/push/pull apartir do visual studio
