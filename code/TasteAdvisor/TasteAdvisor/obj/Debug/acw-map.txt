@@ -1,4 +1,0 @@
-TasteAdvisor.MainActivity, TasteAdvisor;md5dc1540c6918e786c2f3566c5dc631c7b.MainActivity
-TasteAdvisor.MainActivity, TasteAdvisor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5dc1540c6918e786c2f3566c5dc631c7b.MainActivity
-TasteAdvisor.MainActivity;md5dc1540c6918e786c2f3566c5dc631c7b.MainActivity
-tasteadvisor.MainActivity;md5dc1540c6918e786c2f3566c5dc631c7b.MainActivity

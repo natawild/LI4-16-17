@@ -1,27 +1,35 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
-using Android.App;
+using System.Runtime.InteropServices;
 
-// Information about this assembly is defined by the following attributes. 
-// Change them to the values specific to your project.
-
+// As Informações Gerais sobre um assembly são controladas por meio do 
+// conjunto de atributos a seguir. Altere esses valores de atributo para modificar as informações
+// associadas a um assembly.
 [assembly: AssemblyTitle("TasteAdvisor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("${AuthorCopyright}")]
+[assembly: AssemblyProduct("TasteAdvisor")]
+[assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-// The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
-// The form "{Major}.{Minor}.*" will automatically update the build and revision,
-// and "{Major}.{Minor}.{Build}.*" will update just the revision.
+// Configurar o ComVisible como false torna os tipos desse assembly invisíveis 
+// para componentes COM.  Se for necessário acessar um tipo nesse assembly a partir do 
+// COM, defina o atributo ComVisible como true nesse tipo.
+[assembly: ComVisible(false)]
 
-[assembly: AssemblyVersion("1.0.0")]
+// A GUID a seguir será referente à ID do typelib se este projeto for exposto ao COM
+[assembly: Guid("773a177f-97be-4f97-a582-f3610717d52d")]
 
-// The following attributes are used to specify the signing key for the assembly, 
-// if desired. See the Mono documentation for more information about signing.
-
-//[assembly: AssemblyDelaySign(false)]
-//[assembly: AssemblyKeyFile("")]
+// As informações de versão de um assembly consistem nos quatro valores a seguir:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// É possível especificar todos os valores ou utilizar como padrão os Números de Revisão e da Versão 
+// usando o '*' como mostrado abaixo:
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
