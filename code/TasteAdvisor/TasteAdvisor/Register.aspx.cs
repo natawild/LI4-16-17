@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace TasteAdvisor
 {
-    public partial class Register : System.Web.UI.Page
+    public partial class Register : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
