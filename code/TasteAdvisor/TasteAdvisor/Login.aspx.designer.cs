@@ -11,5 +11,41 @@ namespace TasteAdvisor {
     
     
     public partial class Login {
+        
+        /// <summary>
+        /// Controle emailLoginTextBox.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox emailLoginTextBox;
+        
+        /// <summary>
+        /// Controle passwordLoginTextBox.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox passwordLoginTextBox;
+        
+        /// <summary>
+        /// Controle LoginButton.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button LoginButton;
+        
+        /// <summary>
+        /// Controle createAccountButton.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button createAccountButton;
     }
 }
