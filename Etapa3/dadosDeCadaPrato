@@ -1,0 +1,505 @@
+prato:{ 
+	cozinha:""
+	nome: "Francesinha"
+	ingredientes: {
+		"pao de forma",
+		"queijo", 
+		"bifana de porco", 
+		"linguiça",
+		"fiambre",
+		"batata", 
+		"ovo"
+	}
+}
+
+prato:{ 
+	cozinha:""
+	nome: "Francesinha com molho de marisco"
+	ingredientes: {
+		"pão de forma",
+		"queijo", 
+		"bife de vaca", 
+		"linguiça",
+		"fiambre",
+		"batata", 
+		"caldo de marisco",
+		"cebola", 
+		"vinho do porto",
+		"piri-piri"	
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Esparguete à Bolonhesa"
+	ingredientes: {
+		"esparguete",
+		"Spaguetti"
+		"carne de vaca picada", 
+		"tomate", 
+		"queijo ralado", 
+		"alho",
+		"cebola"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Esparguete à Carbonara"
+	ingredientes: {
+		"esparguete",
+		"Spaguetti"
+		"bacon", 
+		"tomate", 
+		"queijo ralado", 
+		"alho",
+		"cebola",
+		"natas", 
+		"cebolinho"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Esparguete com camarão e legumes"
+	ingredientes: {
+		"esparguete",
+		"Spaguetti"
+		"cenoura",
+		"ervilhas", 
+		"pepino", 
+		"couve-flor",  
+		"camarão", 
+		"alho",
+		"cebola"
+		"sal", 
+		"pimenta preta"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Bolonhesa Bio com quinoa"
+	ingredientes: {
+		"quinoa",
+		"azeite"
+		"carne de vaca picada", 
+		"tomate", 
+		"queijo ralado", 
+		"alho",
+		"cebola", 
+		"cenoura", 
+		"tomilho", 
+		"cogumelos"
+	}
+}
+
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Canelones de carne"
+	ingredientes: {
+		"canelones",
+		"Caneloni",
+		"carne de novilho picada", 
+		"cebola", 
+		"alho", 
+		"salsa picada", 
+		"tomate", 
+		"queijo mozzarella"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Canelones com espinafres"
+	ingredientes: {
+		"canelones",
+		"toucinho fumado",
+		"queijo creme"
+		"cebola", 
+		"alho", 
+		"salsa picada", 
+		"tomate", 
+		"queijo mozzarella",
+		"espinafres"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Canelones de bacalhau"
+	ingredientes: {
+		"canelones",
+		"toucinho fumado",
+		"queijo creme"
+		"cebola", 
+		"alho", 
+		"salsa picada", 
+		"queijo mozzarella",
+		"bacalhau"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Rondelli"
+	ingredientes: {
+		"Rondelli",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Lasanha do mar"
+	ingredientes: {
+		"Lasagne",
+		"lasanha", 
+		"pescada", 
+		"miolo de camarão", 
+		"delicias do mar", 
+		"cebola", 
+		"cenoura", 
+		"queijo mozzarella", 
+		"molho béchamel"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Lasanha de marisco"
+	ingredientes: {
+		"Lasagne",
+		"lasanha", 
+		"miolo de camarão", 
+		"palitos do mar", 
+		"leite", 
+		"delicias do mar", 
+		"cebola", 
+		"cenoura", 
+		"queijo mozzarella", 
+		"molho béchamel"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Macarrão com almondegas"
+	ingredientes: {
+		"macarrão",
+		"carne picada de novilho", 
+		"tomate", 
+		"alho", 
+		"salsa", 
+		"pimenta branca"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Tagliatelle com polvo e camarão"
+	ingredientes: {
+		"tagliatelle",
+		"polvo", 
+		"camarão tigre", 
+		"tomate", 
+		"oregãos",
+		"cebola", 
+		"vinho branco", 
+		"pimenta preta"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Tagliatelle com salmão"
+	ingredientes: {
+		"tagliatelle",
+		"salmão", 
+		"tomate", 
+		"oregãos",
+		"cebola", 
+		"pimenta preta"
+	}
+}
+
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Capeletti"
+	ingredientes: {
+		"Capeletti",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Gnocchi"
+	ingredientes: {
+		"Gnocchi",
+		"carne de vaca picada"
+	}
+}
+
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Risoto à Milanesa"
+	ingredientes: {
+		"arroz",
+		"queijo parmesão",
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Pizza (di Napoli)"
+	ingredientes: {
+		"manjericão",
+		"mussarela", 
+		"farinha de trigo", 
+		"tomate", 
+		"salsa"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Bruschetta Tradicional"
+	ingredientes: {
+		"pão italiano",
+		"queijo burrata",
+		"tomate", 
+		"alho",
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Tortellini com cogumelos"
+	ingredientes: {
+		"tortellini",
+		"cogumelos", 
+		"alho", 
+		"natas", 
+		"pimenta"
+	}
+}
+
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Carpaccio de Rosbife"
+	ingredientes: {
+		"queijo parmesão", 
+		"anchovas", 
+		"gotas de tabasco", 
+		"pão de forma",
+		"vinagre balsâmico", 
+		"alho", 
+		"salsa", 
+		"tomilho", 
+		"alecrim", 
+		"carne de vaca"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Polenta Italiana"
+	ingredientes: {
+		"fubá de milho",
+		"queijo ralado", 
+		"cebola", 
+		"tomate", 
+		"salsa", 
+		"queijo mussarela", 
+		"bacon", 
+		"carne seca"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Calzone à camponesa"
+	ingredientes: {
+		"macarrão",
+		"queijo de vaca", 
+		"queijo de ovelha", 
+		"oregãos", 
+		"farinha de trigo", 
+		"chouriço", 
+		"tomate", 
+		"cogumelos", 
+		"presunto", 
+		"pimenta"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta com azeitonas"
+	ingredientes: {
+		"ciabatta",
+		"farinha de trigo",
+		"leite",
+		"azeite", 
+		"azeitonas", 
+		"queijo ralado"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Tiramisú"
+	ingredientes: {
+		"ovo",
+		"bolacha champanhe", 
+		"cacau"
+	}
+}
+
+
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Panettone"
+	ingredientes: {
+		"farinha de trigo", 
+		"leite", 
+		"ovos", 
+		"frutas cristalizadas"
+		"uvas-passa"
+	}
+}
+------- vou 
+prato:{ 
+	cozinha:"italiana"
+	nome: "Gelato"
+	ingredientes: {
+		"leite", 
+		""
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+prato:{ 
+	cozinha:"italiana"
+	nome: "Ciabatta"
+	ingredientes: {
+		"macarrão",
+		"carne de vaca picada"
+	}
+}
+
+
