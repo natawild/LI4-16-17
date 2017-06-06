@@ -1660,6 +1660,8 @@ prato:{
 	}
 }
 
+----------japonesa---------------
+
 prato:{ 
 	cozinha:"japonesa"
 	nome: "Sushi"
