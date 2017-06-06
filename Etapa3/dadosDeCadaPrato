@@ -1,34 +1,5 @@
-prato:{ 
-	cozinha:""
-	nome: "Francesinha"
-	ingredientes: {
-		"pao de forma",
-		"queijo", 
-		"bifana de porco", 
-		"linguiça",
-		"fiambre",
-		"batata", 
-		"ovo"
-	}
-}
 
-prato:{ 
-	cozinha:""
-	nome: "Francesinha com molho de marisco"
-	ingredientes: {
-		"pão de forma",
-		"queijo", 
-		"bife de vaca", 
-		"linguiça",
-		"fiambre",
-		"batata", 
-		"caldo de marisco",
-		"cebola", 
-		"vinho do porto",
-		"piri-piri"	
-	}
-}
-
+------------------------Italiana----------------------------------
 prato:{ 
 	cozinha:"italiana"
 	nome: "Esparguete à Bolonhesa"
@@ -227,10 +198,16 @@ prato:{
 
 prato:{ 
 	cozinha:"italiana"
-	nome: "Capeletti"
+	nome: "Capeletti ao forno"
 	ingredientes: {
 		"Capeletti",
-		"carne de vaca picada"
+		"carne de vaca picada", 
+		"tomate", 
+		"cebola", 
+		"alho", 
+		"azeitonas", 
+		"queijo ralado", 
+		"salsa"
 	}
 }
 
@@ -239,7 +216,13 @@ prato:{
 	nome: "Gnocchi"
 	ingredientes: {
 		"Gnocchi",
-		"carne de vaca picada"
+		"bacon", 
+		"cogumelos", 
+		"cebola", 
+		"natas", 
+		"noz-moscada", 
+		"oregãos", 
+		"queijo ralado"
 	}
 }
 
@@ -250,6 +233,9 @@ prato:{
 	ingredientes: {
 		"arroz",
 		"queijo parmesão",
+		"cebola", 
+		"acafrão", 
+		"vinho branco"
 	}
 }
 
@@ -361,8 +347,6 @@ prato:{
 	}
 }
 
-
-
 prato:{ 
 	cozinha:"italiana"
 	nome: "Panettone"
@@ -371,22 +355,310 @@ prato:{
 		"leite", 
 		"ovos", 
 		"frutas cristalizadas"
-		"uvas-passa"
-	}
-}
-------- vou 
-prato:{ 
-	cozinha:"italiana"
-	nome: "Gelato"
-	ingredientes: {
-		"leite", 
+		"uvas-passa", 
 		""
 	}
 }
 
 prato:{ 
 	cozinha:"italiana"
-	nome: "Ciabatta"
+	nome: "Gelato de morango"
+	ingredientes: {
+		"leite condensado", 
+		"iogurte natural", 
+		"morango", 
+		"chantili", 
+		"chocolate"
+	}
+}
+
+------------------portuguesa-------------------
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Francesinha"
+	ingredientes: {
+		"pao de forma",
+		"queijo", 
+		"bifana de porco", 
+		"linguiça",
+		"fiambre",
+		"batata", 
+		"ovo"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Francesinha com molho de marisco"
+	ingredientes: {
+		"pão de forma",
+		"queijo", 
+		"bife de vaca", 
+		"linguiça",
+		"fiambre",
+		"batata", 
+		"caldo de marisco",
+		"cebola", 
+		"vinho do porto",
+		"piri-piri"	
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Bifes da alcatra na grelha com cebola agridoce"
+	ingredientes: {
+		"bifes da alcatara",
+		"alho", 
+		"cebola", 
+		"alho", 
+		"vinagre", 
+		"batata frita"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Cabrito à serrana"
+	ingredientes: {
+		"cabrito",
+		"batatas vermelhas", 
+		"pimentão doce", 
+		"alecrim", 
+		"vinho branco", 
+		"cebola", 
+		"alho"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Empadão de carne"
+	ingredientes: {
+		"carne picada de novilho",
+		"cebola", 
+		"alho",
+		"tomate", 
+		"arroz agulha", 
+		"ervilhas", 
+		"queijo parmesão", 
+		"salsa",
+		"pimenta branca"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Fricassé de novilho"
+	ingredientes: {
+		"carne de novilho",
+		"cebola", 
+		"cenoura", 
+		"cogumelos", 
+		"ervilhas", 
+		"ovo", 
+		"vinho branco", 
+		"limão", 
+		"pimenta preta", 
+		"manteiga"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Picanha com Mostarda"
+	ingredientes: {
+		"picanha",
+		"mostarda", 
+		"sal", 
+		"salsa", 
+		"batata"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Rolo de carne recheado com farinheira"
+	ingredientes: {
+		"carne picada de bovino",
+		"farinheira", 
+		"ananás", 
+		"cebola", 
+		"alho", 
+		"oregãos", 
+		"pão ralado", 
+		"ovo", 
+		"pimenta preta"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Entrecosto no forno com cerveja"
+	ingredientes: {
+		"entrecosto",
+		"massa de pimentão", 
+		"alho", 
+		"cerveja", 
+		"azeite", 
+		"batatas", 
+		"azeitonas"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Espetadas terra e mar"
+	ingredientes: {
+		"bifes de novilho",
+		"camarão", 
+		"cebola", 
+		"pimento vermelho", 
+		"alho", 
+		"azeite", 
+		"leite", 
+		"pimenta"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Novilho com legumes e cerveja"
+	ingredientes: {
+		"novilho",
+		"cebola", 
+		"alho", 
+		"cerveja", 
+		"tomilho", 
+		"nabo", 
+		"cenoura", 
+		"cogumelos", 
+		"chalotas", 
+		"ervilhas", 
+		"azeite", 
+		"pimenta", 
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Açorda com rojões"
+	ingredientes: {
+		"rojões de porco",
+		"alho", 
+		"pimentão doce", 
+		"azeite", 
+		"pimenta", 
+		"pão", 
+		"cebola", 
+		"tomate", 
+		"pimenta"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Beringelas recheadas"
+	ingredientes: {
+		"beringelas",
+		"carne picada de porco", 
+		"cebola", 
+		"alho", 
+		"tomate", 
+		"oregãos", 
+		"queijo mozzarella", 
+		"salsa", 
+		"pimenta"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Bifanas de porco enroladas com presunto"
+	ingredientes: {
+		"bifanas de porco",
+		"presunto", 
+		"queijo", 
+		"tomate", 
+		"oregãos", 
+		"alho", 
+		"pimenta", 
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Biscoitos de alheira"
+	ingredientes: {
+		"alheira",
+		"farinha de trigo", 
+		"farinha de milho", 
+		"leite", 
+		"ovos", 
+		"malaguetas", 
+		"queijo da ilha"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Carne de porco com amêijoas"
+	ingredientes: {
+		"rojões de porco",
+		"amêijoa vietnamita", 
+		"alho",
+		"vinho de mesa branco", 
+		"azeite", 
+		"pimenta preta", 
+		"sal", 
+		"laranja"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Costeletas de porco no churrasco"
+	ingredientes: {
+		"costeletas de porco do cachaço",
+		"batata roxa", 
+		"alho", 
+		"limão", 
+		"alho", 
+		"pimentão-doce", 
+		"piri-piri", 
+		"azeite", 
+		"sal"
+	}
+}
+
+-------------------------
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "pasteis de bacalhau"
+	ingredientes: {
+		"bacalhau",
+		"batata", 
+		"ovo", 
+		"salsa", 
+		""
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "bacalhau à brás"
+	ingredientes: {
+		"bacalhau",
+		""
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "alheira de mirandela"
 	ingredientes: {
 		"macarrão",
 		"carne de vaca picada"
@@ -394,112 +666,852 @@ prato:{
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "cozido à portuguesa"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"carne de novilho",
+		"pernil de porco fumado", 
+		"presunto", 
+		"bacon", 
+		"morcela", 
+		"farinheira", 
+		"chouriço", 
+		"feijão branco", 
+		"cenoura", 
+		"nabo", 
+		"batata", 
+		"couve coração"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Favas à portuguesa"
+	ingredientes: {
+		"favas",
+		"chouriço", 
+		"morcela", 
+		"cebola", 
+		"alho", 
+		"pimentão doce", 
+		"salsa",
+		"entremeada de porco"
 	}
 }
 
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Lombo de porco com maçã"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"lombo de porco",
+		"maçã", 
+		"tomilho", 
+		"pimenta", 
+		"vinho branco", 
+		"batata"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Secretos de porco preto com castanhas"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"secretos de porco",
+		"castanhas", 
+		"alho", 
+		"pimentão", 
+		"louro"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Asas de frango no churrasco"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"asas de frango",
+		"mel", 
+		"azeite", 
+		"limão", 
+		"alho", 
+		"piri-piri", 
+		"sal"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Bifes de frango grelhados com azeitonas"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"bifes de frango",
+		"tomate", 
+		"azeitonas", 
+		"cebola", 
+		"alho", 
+		"vinagre", 
+		"sal",
+		"pimenta"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Bifes de peru com batata salteada"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"bifes de peru",
+		"fiambre", 
+		"queijo", 
+		"limão", 
+		"margarina", 
+		"sal", 
+		"pimenta branca",
+		"batata", 
+		"alho"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Caril de frango"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"peito de frango",
+		"malagueta", 
+		"cominhos", 
+		"cebola", 
+		"alho", 
+		"leite de coco", 
+		"coentros",
+		"pimenta preta", 
+		"caril", 
+		"arroz"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Frango à Portuguesa"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"perninhas de frango",
+		"cebola", 
+		"pimento verde", 
+		"tomate", 
+		"alho", 
+		"louro", 
+		"azeite"
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Frango com camarão"
+	ingredientes: {
+		"frango",
+		"camarão tigre", 
+		"cerveja", 
+		"alho", 
+		"pimentão doce"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Frango no churrasco"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"frango",
+		"vinho branco", 
+		"limão", 
+		"alho", 
+		"piri-piri", 
+		"batata"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Grelhado de carnes"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"frango",
+		"bife de alcatra de novilho", 
+		"bifanas de porco", 
+		"alho", 
+		"limão", 
+		"pimenta preta", 
+		"pimentão doce"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Pato no forno"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"pato",
+		"laranja", 
+		"limão", 
+		"cebola", 
+		"alho", 
+		"azeite", 
+		"batata"
 	}
 }
 
 prato:{ 
-	cozinha:"italiana"
-	nome: "Ciabatta"
+	cozinha:"portuguesa"
+	nome: "Peito de peru recheado"
 	ingredientes: {
-		"macarrão",
-		"carne de vaca picada"
+		"bifes de peru",
+		"ameixas secas", 
+		"toucinho fumado", 
+		"vinho branco", 
+		"laranja", 
+		"alho", 
+		"sal", 
+		"salsa", 
+		"tomilho"
 	}
 }
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Strogonoff de frango"
+	ingredientes: {
+		"bife de frango",
+		"cebola", 
+		"cogumelos", 
+		"alho", 
+		"natas", 
+		"pimenta", 
+		"arroz"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Tiras de peru agridoces"
+	ingredientes: {
+		"bife de peru",
+		"ervilhas", 
+		"cenoura", 
+		"broculos", 
+		"couve-flor", 
+		"ovo", 
+		"arroz"
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Coelho com molho de mostarda"
+	ingredientes: {
+		"pernas de coelho",
+		"vinho do Porto", 
+		"azeite", 
+		"cogumelos", 
+		"natas", 
+		"farinha", 
+		"cominhos"
+		"arroz"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Perna de coelho com batatinha assada"
+	ingredientes: {
+		"perna de coelho",
+		"pimenta", 
+		"pimentão doce", 
+		"limão", 
+		"vinho branco", 
+		"mostarda", 
+		"batata", 
+		"pipi-piri"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Coelho na cerveja com cogumelos frescos"
+	ingredientes: {
+		"coelho",
+		"chouriço", 
+		"cenoura", 
+		"cebola", 
+		"cerveja", 
+		"cogumelos frescos", 
+		"pão de mistura"
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "CCaldeirada de borrego"
+	ingredientes: {
+		"borrego",
+		"azeite", 
+		"cebola", 
+		"alho", 
+		"pimento verde", 
+		"vinho branco", 
+		"tomate", 
+		"pimentão-doce", 
+		"sal"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Borrego com batatinhas"
+	ingredientes: {
+		"borrego",
+		"alho", 
+		"tomilho", 
+		"cebola", 
+		"alecrim", 
+		"batata pequena", 
+		"hortelã"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Cordeiro de leite no forno à padeiro"
+	ingredientes: {
+		"perna de cordeiro",
+		"vinho branco", 
+		"pimentão-doce", 
+		"cebola", 
+		"louro", 
+		"sal",
+		"pimenta", 
+		"salsa",  
+		"batata"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Cabrito corado com ervas e batata Duchesse"
+	ingredientes: {
+		"cabrito",
+		"batata Duchesse", 
+		"alho", 
+		"cebola", 
+		"vinho branco", 
+		"louro", 
+		"azeite", 
+		"sal"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Crumble de cerejas"
+	ingredientes: {
+		"cerejas",
+		"açucar", 
+		"ovos", 
+		"margarina", 
+		"farinha", 
+		"canela"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Mousse de morangos"
+	ingredientes: {
+		"morangos",
+		"iogurte de morango", 
+		"folhas de gelatina", 
+		"açucar"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Pavê de ananás"
+	ingredientes: {
+		"gelatina de ananás",
+		"natas", 
+		"açucar", 
+		"ananás fresco"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Mousse de lima"
+	ingredientes: {
+		"lima",
+		"natas", 
+		"açucar", 
+		"leite condensado"
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Tentação de Laranja"
+	ingredientes: {
+		"pão de ló",
+		"sumo de laranja natural", 
+		"ovos", 
+		"farinha",
+		"açucar", 
+		"laranja"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Trifle de morangos"
+	ingredientes: {
+		"iogurte natural",
+		"morango", 
+		"açucar", 
+		"limão",
+		"bochas maria", 
+		"corn flakes" 
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Pudim de leite condensado"
+	ingredientes: {
+		"açucar",
+		"água", 
+		"leite condesado", 
+		"ovo",
+		"leite" 
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Pudim frio de chocolate"
+	ingredientes: {
+		"chocolate",
+		"natas", 
+		"açucar", 
+		"ovo",
+		"folhas de gelatina", 
+		"cacau",
+		"fruta fresca" 
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Bavaroise de café"
+	ingredientes: {
+		"café torrado",
+		"natas", 
+		"açucar", 
+		"ovo",
+		"folhas de gelatina", 
+		"leite magro" 
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Cheesecake de framboesa"
+	ingredientes: {
+		"doce de framboesa",
+		"leite condensado", 
+		"queijo fresco", 
+		"bolachas água e sal",
+		"manteiga", 
+		"ovo",
+		"limão" 
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Delícia fresca de maçã"
+	ingredientes: {
+		"maçã",
+		"leite condensado", 
+		"açucar", 
+		"ovo",
+		"café soluvel", 
+		"canela",
+		"leite" 
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Semifrio de bolacha com iogurte"
+	ingredientes: {
+		"bolachas maria",
+		"leite condensado", 
+		"açucar", 
+		"ovo",
+		"folha de gelatina", 
+		"natas",
+		"iogurtes naturais" 
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Tarte de bolacha com limão"
+	ingredientes: {
+		"queijo fresco",
+		"bolachas maria", 
+		"açucar", 
+		"ovo",
+		"manteiga" 
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Semifrio de bolacha com iogurte"
+	ingredientes: {
+		"bolachas maria",
+		"leite condensado", 
+		"açucar", 
+		"ovo",
+		"folha de gelatina", 
+		"natas",
+		"iogurtes naturais" 
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Tarte de limão merengada"
+	ingredientes: {
+		"massa folhada",
+		"leite condensado", 
+		"açucar", 
+		"ovo",
+		"limão"
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Açorda de marisco"
+	ingredientes: {
+		"marisco variado",
+		"camarão", 
+		"pão de mistura", 
+		"tomate",
+		"ovo", 
+		"conetros", 
+		"pimenta", 
+		"sal"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Amêijoas à Bulhão Pato"
+	ingredientes: {
+		"amêijoa vietnamita",
+		"alho", 
+		"limão", 
+		"coentros",
+		"azeite", 
+		"pimenta preta"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Arroz de marisco"
+	ingredientes: {
+		"maricso variado",
+		"louro", 
+		"salsa", 
+		"azeite", 
+		"tomate", 
+		"cebola", 
+		"alho",
+		"arroz carolino"
+	}
+}
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Camarão salteado"
+	ingredientes: {
+		"camarão",
+		"pimento vermelho", 
+		"cebola", 
+		"alho", 
+		"azeite", 
+		"limão", 
+		"piripiri", 
+		"salsa", 
+		"sal"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Espetadas de camarão com frango"
+	ingredientes: {
+		"peito de frango",
+		"camarão", 
+		"alho", 
+		"limão", 
+		"azeite", 
+		"pimenta", 
+		"salsa", 
+		"massa tagliatelle", 
+		"courgette", 
+		"beringela"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Feijoada de camarão"
+	ingredientes: {
+		"miolo de camarão",
+		"feijão manteiga", 
+		"cebola", 
+		"alho", 
+		"tomate", 
+		"arroz agula", 
+		"piri-piri"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Trança de tamboril com camarão"
+	ingredientes: {
+		"tamboril",
+		"camarão", 
+		"maracujás", 
+		"manteiga", 
+		"massa folhada", 
+		"farinha", 
+		"sal", 
+		"pimenta"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Risoto de gambas e molho de rúcula"
+	ingredientes: {
+		"camarão",
+		"arroz", 
+		"rúcula", 
+		"cebola", 
+		"vinho branco", 
+		"manteiga", 
+		"queijo ralado", 
+		"pimenta"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Folar transmontano"
+	ingredientes: {
+		"farinha",
+		"ovo", 
+		"azeite", 
+		"bacon", 
+		"presunto", 
+		"chouriço", 
+		"salpicão"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Pataniscas de bacalhau"
+	ingredientes: {
+		"bacalhau",
+		"farinha", 
+		"cerveja", 
+		"ovo", 
+		"cebola", 
+		"pimenta preta" 
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Rissóis de camarão gratinados"
+	ingredientes: {
+		"camarão",
+		"molho béchamel", 
+		"pão ralado", 
+		"esparguete", 
+		"farinha de trigo"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Tábua de petiscos portugueses"
+	ingredientes: {
+		"broa de milho",
+		"sardinha em conserva", 
+		"azeitonas pretas", 
+		"camarão", 
+		"alho", 
+		"salsa", 
+		"limão", 
+		"amêijoa branca", 
+		"moelas", 
+		"tomate", 
+		"bacalhau", 
+		"azeite", 
+		"alho"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Crepes de legumes"
+	ingredientes: {
+		"farinha",
+		"ovo", 
+		"legumes", 
+		"couve coração", 
+		"rebentos", 
+		"molho de soja"
+	}
+}
+
+
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Empadas de sapateira"
+	ingredientes: {
+		"miolo de sapateira",
+		"massa folhada", 
+		"cebola", 
+		"farinha de trigo", 
+		"limão", 
+		"ovo", 
+		"salsa"
+	}
+}
+
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Ervilhas com ovos e presunto"
+	ingredientes: {
+		"presunto",
+		"ovo", 
+		"ervilhas", 
+		"tomate", 
+		"azeite", 
+		"bacon", 
+		"alho", 
+		"cebola", 
+		"salsa"
+	}
+}
+
+-----------------vegetariana-------------
+
+prato:{ 
+	cozinha:"vegetariana"
+	nome: "Beringelas recheadas com grão e legumes"
+	ingredientes: {
+		"beringelas",
+		"grão de bico", 
+		"cebola", 
+		"dentes de alho", 
+		"cenoura", 
+		"tomate", 
+		"azeite", 
+		"louro", 
+		"cominhos", 
+		"cebolinho"
+	}
+}
+
+
+prato:{ 
+	cozinha:"vegetariana"
+	nome: "Guacamole"
+	ingredientes: {
+		"abacate",
+		"malagueta", 
+		"pimento padrão", 
+		"pimento vermelho", 
+		"cebola", 
+		"tomate", 
+		"limão", 
+		"alho", 
+		"coentros", 
+		"pimenta preta"
+	}
+}
+
+
+prato:{ 
+	cozinha:"vegetariana"
+	nome: "Tarte de legumes grelhados"
+	ingredientes: {
+		"massa quebrada",
+		"pimentos", 
+		"curgetes", 
+		"beringela", 
+		"cebola", 
+		"tomate", 
+		"oregãos", 
+		"azeitonas", 
+		"queijo mozzarella", 
+		"feijão branco", 
+		"pimenta"
+	}
+}
+
+
+prato:{ 
+	cozinha:"vegetariana"
+	nome: "Tomates recheados"
+	ingredientes: {
+		"tomate",
+		"couscous", 
+		"pimento vermelho", 
+		"cenoura", 
+		"cebola", 
+		"ervilhas", 
+		"azeite", 
+		"pimenta"
+	}
+}
+
+prato:{ 
+	cozinha:"vegetariana"
+	nome: "Wrap de legumes"
+	ingredientes: {
+		"farinha de trigo",
+		"açucar", 
+		"legumes", 
+		"alface",  
+		"tomate", 
+		"oregãos", 
+		"pimenta"
+	}
+}
+
+
 
 
