@@ -1426,6 +1426,27 @@ prato:{
 	}
 }
 
+prato:{ 
+	cozinha:"portuguesa"
+	nome: "Quiche de cogumelos e bacon"
+	ingredientes: {
+		"massa quebrada",
+		"cogumelos", 
+		"bacon", 
+		"cebola", 
+		"salsa", s
+		"azeite", 
+		"ovo", 
+		"nata", 
+		"queijo mozarela", 
+		"sal", 
+		"pimenta"
+	}
+}
+
+
+
+
 -----------------vegetariana-------------
 
 prato:{ 
@@ -1509,6 +1530,151 @@ prato:{
 		"tomate", 
 		"oregãos", 
 		"pimenta"
+	}
+}
+
+
+----------tailandesa-------------
+prato:{ 
+	cozinha:"tailandesa"
+	nome: "Camarões com molho de coco"
+	ingredientes: {
+		"camarões",
+		"cebola", 
+		"alho", 
+		"chili vermelho",  
+		"gengibre", 
+		"açafrão", 
+		"caril", 
+		"leite de coco", 
+		"limão", 
+		"sal"
+	}
+}
+
+prato:{ 
+	cozinha:"tailandesa"
+	nome: "Chow mein de vaca"
+	ingredientes: {
+		"bife da rabadilha de novilho",
+		"massa chow mein", 
+		"legumes", 
+		"rebentos",  
+		"molho de soja", 
+		"cebola", 
+		"pimenta preta"
+	}
+}
+
+
+prato:{ 
+	cozinha:"tailandesa"
+	nome: "Lombo de porco com ananás e arroz basmati"
+	ingredientes: {
+		"lombo de porco",
+		"arroz basmati", 
+		"azeite", 
+		"açafrão",  
+		"coentros", 
+		"pimenta", 
+		"ananás", 
+		"laranja", 
+		"gengibre", 
+		"alho", 
+		"pimenta", 
+		"sal", 
+		"oleo de amendoim", 
+		"farinha de amido"
+	}
+}
+
+prato:{ 
+	cozinha:"tailandesa"
+	nome: "Nasi Goreng - Receita clássica"
+	ingredientes: {
+		"ovo",
+		"galinha", 
+		"cebolinho", 
+		"cebolas",  
+		"molho de soja", 
+		"alho", 
+		"amendoins salgados", 
+		"gengibre", 
+		"coco", 
+		"camarão", 
+		"arroz", 
+		"pimenta"
+	}
+}
+
+--------mexicana----------
+
+prato:{ 
+	cozinha:"mexicana"
+	nome: "Chili com carne"
+	ingredientes: {
+		"feijão encarnado",
+		"carne picada", 
+		"milho doce", 
+		"alho",  
+		"pimento", 
+		"piripiri"
+	}
+}
+
+prato:{ 
+	cozinha:"mexicana"
+	nome: "Enchiladas mexicanas"
+	ingredientes: {
+		"carne picada de novilho",
+		"azeite", 
+		"cebola", 
+		"alho",  
+		"arroz carolino", 
+		"pimentão doce", 
+		"oregãos", 
+		"cominhos", 
+		"queijo mozzarella", 
+		"tortila mexicana"
+	}
+}
+
+prato:{ 
+	cozinha:"mexicana"
+	nome: "Nachos de carne"
+	ingredientes: {
+		"carne de novilho picada",
+		"cebola", 
+		"alho", 
+		"azeite",  
+		"nachos", 
+		"oregãos", 
+		"pimentão doce", 
+		"queijo mozzarella", 
+		"natas", 
+		"queijo creme", 
+		"vinagre", 
+		"limão", 
+		"sal", 
+		"pimenta"
+	}
+}
+
+prato:{ 
+	cozinha:"japonesa"
+	nome: "Sushi"
+	ingredientes: {
+		"arroz",
+		"algas Nori", 
+		"lombo de salmão", 
+		"camarão",  
+		"abacate", 
+		"pepino", 
+		"sementes de sésamo branco", 
+		"sementes de sésamo preto", 
+		"wasabi", 
+		"molho de soja", 
+		"vinagre de arroz"
 	}
 }
 
