@@ -17,9 +17,9 @@
                 <p>Insira o email:</p>
                 <asp:TextBox Id="emailTextBox" runat="server" />
                 <p>Insira a password:</p>
-                <asp:TextBox Id="passwordTextBox" runat="server" />
+                <asp:TextBox Id="passwordTextBox" runat="server" TextMode="Password" />
                 <p>Confirma a password:</p>
-                <asp:TextBox Id="confirmPasswordTextBox" runat="server" />
+                <asp:TextBox Id="confirmPasswordTextBox" runat="server" TextMode="Password" />
                 <p></p>
                 <asp:Button ID="submitAccountButton" runat="server" Text="Criar conta"/>
             </div>
