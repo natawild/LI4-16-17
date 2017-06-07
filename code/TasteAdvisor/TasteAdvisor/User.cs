@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Windows.Media.Imaging;
 
 namespace TasteAdvisor
 {
@@ -59,6 +60,13 @@ namespace TasteAdvisor
         {
             get { return _restauranteBloqueados; }
             set { _restauranteBloqueados = value; }
+        }
+
+        BitmapImage _fotografia;
+        public BitmapImage Fotografia
+        {
+            get { return _fotografia; }
+            set { _fotografia = value; }
         }
         #endregion
 
