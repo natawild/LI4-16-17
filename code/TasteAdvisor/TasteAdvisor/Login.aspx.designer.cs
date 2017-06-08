@@ -40,6 +40,15 @@ namespace TasteAdvisor {
         protected global::System.Web.UI.WebControls.Button LoginButton;
         
         /// <summary>
+        /// Controle invalidLogin.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label invalidLogin;
+        
+        /// <summary>
         /// Controle createAccountButton.
         /// </summary>
         /// <remarks>

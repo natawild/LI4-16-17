@@ -14,11 +14,11 @@
                 <p>Insira o email:</p>
                 <asp:TextBox Id="emailLoginTextBox" runat="server" />
                 <p>Insira password:</p>
-                <asp:TextBox Id="passwordLoginTextBox" runat="server" />
+                <asp:TextBox Id="passwordLoginTextBox" runat="server" TextMode="Password" />
                 <p></p>
-                <asp:Button ID="LoginButton" runat="server" Text="Iniciar Sessão"/>
+                <asp:Button ID="LoginButton" runat="server" Text="Iniciar Sessão" OnClick="LoginButton_Click"/>
                 <p> </p>
-
+                <asp:Label ID="invalidLogin" runat="server" ForeColor="Red" />
                 <p>Nao tem conta?</p>
                 <asp:Button ID="createAccountButton" runat="server" Text="Criar conta" />
             </div>
