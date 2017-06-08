@@ -21,7 +21,7 @@
                 <p>Confirma a password:</p>
                 <asp:TextBox Id="confirmPasswordTextBox" runat="server" />
                 <p></p>
-                <asp:Button ID="submitAccountButton" runat="server" Text="Criar conta"/>
+                <asp:Button ID="submitAccountButton" runat="server" Text="Criar conta" OnClick="submitAccountButton_Click"/>
 
             </div>
         </div>
