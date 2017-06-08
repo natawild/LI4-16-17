@@ -4,8 +4,8 @@
     <div class="row">
         <div class="col-sm-offset-3">
             <p></p>
-         <p>Escreva ou dite o nome do prato que deseja</p>
-            </div>
+            <p>Escreva ou dite o nome do prato que deseja</p>
+        </div>
 
         <div class="col-sm-offset-1">
             <asp:Image ImageURL="~/tasteadvisor.png" Text="Nome do prato" runat="server" Height="104px" ImageAlign="Left" Width="160px" />
@@ -14,10 +14,11 @@
              <asp:ImageButton ID="searchVoice" runat="server" Width="25px" OnClick="searchButton_Click" ImageUrl="~/imagens/voice.png" Height="17px" />
         </div>
     </div>
-
-
     <div class="row">
-        <div class="col-sm-offset-5">
+         <h2 style="color:blue; position: fixed; z-index: auto; line-height: 0px; vertical-align: bottom; text-align: left; text-indent: inherit; white-space: normal; word-spacing: normal; letter-spacing: inherit;" class="align-center" contenteditable="true">Nome do Restaurante</h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-offset-0">
         </div>
     </div>
     <div class="row">
@@ -27,7 +28,6 @@
         <div class="col-sm-offset-5">
             <asp:Panel ID="Scroll" ScrollBars="Vertical" runat="server">
                 <asp:Repeater ID="RestaurantList" runat="server">
-
                 </asp:Repeater>
             </asp:Panel>
         </div>
