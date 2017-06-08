@@ -4,7 +4,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-4 col-xs-offset-5 col-sm-4 col-sm-offset-5 col-md-4 col-md-offset-5 col-lg-4 col-lg-offset-5">
-                <asp:Image ImageURL="~/tasteadvisor.png" Text="Nome do prato" runat="server" Height="180" />
+                <asp:Image ImageURL="~/tasteadvisor.png"  runat="server" Height="180" />
             </div>
         </div>
         <div class="row">
@@ -18,7 +18,7 @@
                 <p></p>
 
 
-                <asp:Border ID="outrasPreferencias" runat="server" Text="Outras Preferências"></asp:Border>
+<%--                <asp:Border ID="outrasPreferencias" runat="server" Text="Outras Preferências"></asp:Border>--%>
                 <asp:TextBox ID="teste1" runat="server" Text="teste2"/>
             </div>
         </div>

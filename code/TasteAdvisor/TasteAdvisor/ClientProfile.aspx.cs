@@ -44,6 +44,7 @@ namespace TasteAdvisor
                     child = new TreeNode();
                     child.Text = "Outras Preferências";
                     parent.ChildNodes.Add(child);
+                
                 menuTreeView.Nodes.Add(parent);
                 parent = new TreeNode();
                 parent.Text = "Meus Comentários";
@@ -61,7 +62,7 @@ namespace TasteAdvisor
             {
                 if (no.Text == "Favoritos")
                 {
-                    outrasPreferencias.Visible = no.Selected;
+                    //outrasPreferencias.Visible = no.Selected;
 
                 }
                 if(no.Text == "Não Favoritos")
