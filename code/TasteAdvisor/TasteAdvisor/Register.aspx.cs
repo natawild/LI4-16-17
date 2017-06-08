@@ -13,5 +13,13 @@ namespace TasteAdvisor
         {
 
         }
+
+        protected void submitAccountButton_Click(object sender, EventArgs e)
+        {
+            SQL_API sql = new SQL_API();
+            string query = @"insert into Utilizador(id,nome,password,email)
+Values('"+ Guid.NewGuid().ToString()+@"', '"+ nameTextBox.Text+"', '"+ passwordTextBox.Text+ "', '"+ emailTextBox.Text +"')";
+            sql.ExecQuery(query);
+        }
     }
 }

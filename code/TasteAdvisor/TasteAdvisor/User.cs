@@ -68,6 +68,14 @@ namespace TasteAdvisor
             get { return _fotografia; }
             set { _fotografia = value; }
         }
+
+        List<Comentario> _comentarios;
+
+        public List<Comentario> Comentarios
+        {
+            get { return _comentarios; }
+            set { _comentarios = value; }
+        }
         #endregion
 
         #region Methods
