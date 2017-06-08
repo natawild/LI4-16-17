@@ -1,0 +1,111 @@
+Create Table Utilizador (
+	id uniqueidentifier NOT NULL,
+	nome nchar(45) NOT NULL,
+	password nchar(45) NOT NULL,
+	email nchar(45) NOT NULL,
+	PRIMARY KEY (id)
+);
+
+Create Table Tipo(
+	id uniqueidentifier NOT NULL,
+	nome nchar(45) NOT NULL,
+	PRIMARY KEY(id)
+);
+
+
+Create Table Ingrediente(
+	id uniqueidentifier NOT NULL,
+	nome nchar(45) NOT NULL,
+	PRIMARY KEY(id)
+);
+
+Create Table Restaurante(
+	id uniqueidentifier NOT NULL,
+	nome nchar(45) NOT NULL,
+	latitude float NOT NULL,
+	longitude float NOT NULL,
+	rua nchar(45) NOT NULL,
+	nporta int NOT NULL,
+	localidade nchar(45) NOT NULL,
+	codigoPostal nchar(10) NOT NULL,
+	telefone nchar(15) NOT NULL,
+	PRIMARY KEY(id)
+);
+
+
+Create Table Prato(
+	id uniqueidentifier NOT NULL,
+	nome nchar(45) NOT NULL,
+	restaurante uniqueidentifier NOT NULL,
+	preco float NOT NULL,
+	foto varbinary(max),
+	descricao text,
+	PRIMARY KEY(id),
+	FOREIGN KEY(restaurante) REFERENCES Restaurante(id)
+);
+
+Create Table PratosDegustados(
+	id uniqueidentifier NOT NULL,
+	utilizador uniqueidentifier NOT NULL,
+	prato uniqueidentifier NOT NULL,
+	favorito bit NOT NULL,
+	naoFavorito bit NOT NULL,
+	comentario text,
+	foto varbinary(max),
+	PRIMARY KEY(id),
+	FOREIGN KEY(utilizador) REFERENCES Utilizador(id),
+	FOREIGN KEY(prato) REFERENCES Prato(id)
+);
+
+Create Table Receita(
+	id uniqueidentifier NOT NULL,
+	prato uniqueidentifier NOT NULL,
+	ingrediente uniqueidentifier NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY(prato) REFERENCES Prato(id),
+	FOREIGN KEY(ingrediente) REFERENCES Ingrediente(id)
+);
+
+Create Table RestaurantesVisitados(
+	id uniqueidentifier NOT NULL,
+	utilizador uniqueidentifier NOT NULL,
+	restaurante uniqueidentifier NOT NULL,
+	favorito bit NOT NULL,
+	naoFavorito bit NOT NULL,
+	comentario text,
+	foto varbinary(max),
+	PRIMARY KEY(id),
+	FOREIGN KEY(utilizador) REFERENCES Utilizador(id),
+	FOREIGN KEY(restaurante) REFERENCES Restaurante(id)
+);
+
+Create Table TiposRestaurante(
+	id uniqueidentifier NOT NULL,
+	tipo uniqueidentifier NOT NULL,
+	restaurante uniqueidentifier NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY(tipo) REFERENCES Tipo(id),
+	FOREIGN KEY(restaurante) REFERENCES Restaurante(id)
+);
+
+Create Table Preferencia(
+	id uniqueidentifier NOT NULL,
+	utilizador uniqueidentifier NOT NULL,
+	raio int NOT NULL,
+	mediaPreco int NOT NULL,
+	PRIMARY KEY(id),
+	FOREIGN KEY(utilizador) REFERENCES Utilizador(id),
+);
+
+
+Create Table PreferenciaIngrediente(
+	id uniqueidentifier NOT NULL,
+	preferencia uniqueidentifier NOT NULL,
+	favorito bit NOT NULL,
+	naofavorito bit NOT NULL,
+	ingrediente uniqueidentifier NOT NULL,
+	PRIMARY KEY (id),
+	FOREIGN KEY (preferencia) REFERENCES Preferencia(id),
+	FOREIGN KEY (ingrediente) REFERENCES Ingrediente(id)
+
+);
