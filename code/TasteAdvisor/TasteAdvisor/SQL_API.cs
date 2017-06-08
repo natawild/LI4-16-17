@@ -22,7 +22,10 @@ namespace TasteAdvisor
         #endregion
 
         #region Methods
-
+        /// <summary>
+        /// execute inserts and deletes
+        /// </summary>
+        /// <param name="query"></param>
         public void ExecQuery(string query)
         {
             con.Open();
