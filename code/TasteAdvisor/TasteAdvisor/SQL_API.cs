@@ -13,12 +13,6 @@ namespace TasteAdvisor
         public SQL_API()
         {
             con = new SqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["mydb"].ConnectionString);
-//            con.ConnectionString = @"
-//Data Source=.\\SQLEXPRESS;
-//Initial Catalog=TasteAdvisor;
-//persist security info=True; 
-//Integrated Security=SSPI;
-//providerName = System.Data.SqlClient";
             
         }
         #endregion
