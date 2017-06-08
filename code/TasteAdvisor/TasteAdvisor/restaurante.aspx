@@ -1,20 +1,27 @@
-﻿<%@ Page Title="Restaurante" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TasteAdvisor._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="TasteAdvisor._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="row">
+        <div class="col-sm-offset-3">
+            <p></p>
+         <p>Escreva ou dite o nome do prato que deseja</p>
+            </div>
+
+        <div class="col-sm-offset-1">
+            <asp:Image ImageURL="~/tasteadvisor.png" Text="Nome do prato" runat="server" Height="104px" ImageAlign="Left" Width="160px" />
+            <asp:TextBox ID="SearchBar" runat="server" Width="229px" />
+             <asp:Button ID="searchButton" runat="server" Width="128px" OnClick="searchButton_Click" Text="Pesquisar" ForeColor="Black" />
+             <asp:ImageButton ID="searchVoice" runat="server" Width="25px" OnClick="searchButton_Click" ImageUrl="~/imagens/voice.png" Height="17px" />
+        </div>
+    </div>
+
+
+    <div class="row">
         <div class="col-sm-offset-5">
-            <asp:Image ImageURL="~/tasteadvisor.png" Text="Nome do prato" runat="server" />
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-offset-5">
-            <p> Escreva ou dite o nome do prato que deseja</p>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-offset-5">
-            <asp:TextBox ID="SearchBar" runat="server" />
-        </div>
+        
     </div>
     <div class="row">
         <div class="col-sm-offset-5">
