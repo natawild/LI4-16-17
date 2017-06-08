@@ -22,6 +22,24 @@ namespace TasteAdvisor {
         protected global::System.Web.UI.WebControls.TextBox SearchBar;
         
         /// <summary>
+        /// Controle searchButton.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button searchButton;
+        
+        /// <summary>
+        /// Controle searchVoice.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton searchVoice;
+        
+        /// <summary>
         /// Controle Scroll.
         /// </summary>
         /// <remarks>
