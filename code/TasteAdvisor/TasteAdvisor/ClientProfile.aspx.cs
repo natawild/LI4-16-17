@@ -58,17 +58,18 @@ namespace TasteAdvisor
             }
             TreeNode node = new TreeNode();
             menuTreeView.FindNode("Minhas Preferências");
+            
             foreach (TreeNode no in node.ChildNodes)
             {
-                if (no.Text == "Favoritos")
-                {
+                //if (no.Text == "Favoritos")
+                //{
                     //outrasPreferencias.Visible = no.Selected;
 
-                }
-                if(no.Text == "Não Favoritos")
-                {
+                //}
+                //if(no.Text == "Não Favoritos")
+                //{
 
-                }
+                //}
             }
         }
         #endregion
