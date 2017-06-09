@@ -14,7 +14,7 @@
     <div class="row">
         <div class="col-sm-offset-5">
             <asp:TextBox ID="SearchBar" runat="server" Width="229px" />
-            <asp:button ID="searchButton" runat="server" Width="128px" OnClick="searchButton_Click" Text="Pesquisar"/>
+            <asp:button ID="searchButton" runat="server" Width="128px" OnClick="searchButton_Click" Text="Pesquisar" ForeColor="Black"/>
             <asp:ImageButton ID="searchVoice" runat="server" Width="25px" OnClick="searchButton_Click" ImageUrl="~/imagens/voice.png" Height="17px"/>
         </div>
     </div>

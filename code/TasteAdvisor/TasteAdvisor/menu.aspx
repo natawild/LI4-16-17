@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="row">
-         <h2 style="color:blue; position: fixed; z-index: auto; line-height: 0px; vertical-align: bottom; text-align: left; text-indent: inherit; white-space: normal; word-spacing: normal; letter-spacing: inherit;" class="align-center" contenteditable="true">Nome do Restaurante</h2>
+         <h2 style="color:blue; position: fixed; z-index: auto; line-height: 0px; vertical-align: bottom; text-align: left; text-indent: inherit; white-space: normal; word-spacing: normal; letter-spacing: inherit;" class="align-center" contenteditable="true"> Menu </h2>
     </div>
     <div class="row">
         <div class="col-sm-offset-0">
