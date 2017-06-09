@@ -56,5 +56,17 @@ namespace TasteAdvisor {
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button createAccountButton;
+        
+        /// <summary>
+        /// Propriedade Master.
+        /// </summary>
+        /// <remarks>
+        /// Propriedade gerada automaticamente.
+        /// </remarks>
+        public new TasteAdvisor.SiteMaster Master {
+            get {
+                return ((TasteAdvisor.SiteMaster)(base.Master));
+            }
+        }
     }
 }

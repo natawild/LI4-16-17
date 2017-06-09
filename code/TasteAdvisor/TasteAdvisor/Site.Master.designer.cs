@@ -13,6 +13,15 @@ namespace TasteAdvisor {
     public partial class SiteMaster {
         
         /// <summary>
+        /// Controle loginButtonMain.
+        /// </summary>
+        /// <remarks>
+        /// Campo gerado automaticamente.
+        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor loginButtonMain;
+        
+        /// <summary>
         /// Controle MainContent.
         /// </summary>
         /// <remarks>

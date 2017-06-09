@@ -41,6 +41,8 @@ where email='" + emailLoginTextBox.Text + "';";
                 {
                     invalidLogin.Text = "";
                     //propriedade a definir
+                    Master.IsLogin = true;
+                    Response.Redirect("Default.aspx");
                 }
             }
         }

@@ -55,7 +55,7 @@
                         <li><a runat="server" href="~/About">Sobre</a></li>
                         <li><a runat="server" href="~/Contact">Contato</a></li>
                         <li><a runat="server" href="~/Register">Registar</a></li>
-                        <li><a runat="server" href="~/Login">Iniciar Sessão</a></li>
+                        <li><a runat="server" id="loginButtonMain" href="~/Login">Iniciar Sessão</a></li>
                     </ul>
                 </div>
             </div>
