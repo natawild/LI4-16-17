@@ -54,6 +54,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -133,6 +134,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\speech-input.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -150,6 +152,8 @@
     <Content Include="Register.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="restaurante.aspx" />
+    <Content Include="RestaurantesVisitados.aspx" />
+    <Content Include="RestaurantesBloqueados.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -157,6 +161,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\speech-input.js" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
     <Content Include="Scripts\WebForms\GridView.js" />
@@ -265,6 +270,20 @@
       <DependentUpon>restaurante.aspx</DependentUpon>
     </Compile>
     <Compile Include="Restaurante.cs" />
+    <Compile Include="RestaurantesVisitados.aspx.cs">
+      <DependentUpon>RestaurantesVisitados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RestaurantesVisitados.aspx.designer.cs">
+      <DependentUpon>RestaurantesVisitados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantesBloqueados.aspx.cs">
+      <DependentUpon>RestaurantesBloqueados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RestaurantesBloqueados.aspx.designer.cs">
+      <DependentUpon>RestaurantesBloqueados.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

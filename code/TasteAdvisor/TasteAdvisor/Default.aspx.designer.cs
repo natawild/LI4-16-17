@@ -13,13 +13,13 @@ namespace TasteAdvisor {
     public partial class _Default {
         
         /// <summary>
-        /// Controle SearchBar.
+        /// Controle SearchParameter.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox SearchBar;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText SearchParameter;
         
         /// <summary>
         /// Controle searchButton.
@@ -31,15 +31,6 @@ namespace TasteAdvisor {
         protected global::System.Web.UI.WebControls.Button searchButton;
         
         /// <summary>
-        /// Controle searchVoice.
-        /// </summary>
-        /// <remarks>
-        /// Campo gerado automaticamente.
-        /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton searchVoice;
-        
-        /// <summary>
         /// Controle Scroll.
         /// </summary>
         /// <remarks>
@@ -49,12 +40,12 @@ namespace TasteAdvisor {
         protected global::System.Web.UI.WebControls.Panel Scroll;
         
         /// <summary>
-        /// Controle RestaurantList.
+        /// Controle RestauranteResult.
         /// </summary>
         /// <remarks>
         /// Campo gerado automaticamente.
         /// Modificar a declaração do campo de movimento do arquivo de designer para o arquivo code-behind.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater RestaurantList;
+        protected global::System.Web.UI.WebControls.ListView RestauranteResult;
     }
 }
