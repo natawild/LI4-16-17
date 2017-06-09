@@ -22,6 +22,42 @@ namespace TasteAdvisor {
         protected global::System.Web.UI.WebControls.TreeView menuTreeView;
         
         /// <summary>
+        /// listviewrestaurantesfavoritos control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView listviewrestaurantesfavoritos;
+        
+        /// <summary>
+        /// listviewpratosfavoritos control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView listviewpratosfavoritos;
+        
+        /// <summary>
+        /// listviewrestaurantesnaofavoritos control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView listviewrestaurantesnaofavoritos;
+        
+        /// <summary>
+        /// listviewpratosnaofavoritos control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView listviewpratosnaofavoritos;
+        
+        /// <summary>
         /// outrasPreferencias control.
         /// </summary>
         /// <remarks>
@@ -29,24 +65,6 @@ namespace TasteAdvisor {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel outrasPreferencias;
-        
-        /// <summary>
-        /// ingredientesquenaogostopanel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel ingredientesquenaogostopanel;
-        
-        /// <summary>
-        /// ingredientesListView control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView ingredientesListView;
         
         /// <summary>
         /// CheckBox1 control.
@@ -148,12 +166,57 @@ namespace TasteAdvisor {
         protected global::System.Web.UI.WebControls.CheckBox vegetariana;
         
         /// <summary>
-        /// Panel1 control.
+        /// listviewmenucomentarios control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel Panel1;
+        protected global::System.Web.UI.WebControls.ListView listviewmenucomentarios;
+        
+        /// <summary>
+        /// listviewminhasfotografias control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView listviewminhasfotografias;
+        
+        /// <summary>
+        /// editarperfilpanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel editarperfilpanel;
+        
+        /// <summary>
+        /// LinkButton1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton1;
+        
+        /// <summary>
+        /// LinkButton2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton2;
+        
+        /// <summary>
+        /// LinkButton3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton3;
     }
 }
