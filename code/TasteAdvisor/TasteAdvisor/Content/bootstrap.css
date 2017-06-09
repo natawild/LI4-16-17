@@ -891,7 +891,10 @@ pre code {
 }
 
 .col-xs-4 {
-  width: 33.33333333333333%;
+  width: 35%;
+    top: -234px;
+    left: 0px;
+    height: 406px;
 }
 
 .col-xs-5 {
