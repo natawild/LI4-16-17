@@ -15,6 +15,14 @@ namespace TasteAdvisor
         #endregion
 
         #region Properties
+        string _id;
+
+        public string Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
         string _nome;
 
         public string Nome

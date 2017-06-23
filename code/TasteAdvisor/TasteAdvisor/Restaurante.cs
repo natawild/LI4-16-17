@@ -21,6 +21,15 @@ namespace TasteAdvisor
             get { return _nome; }
             set { _nome = value; }
         }
+
+        string _id;
+
+        public string Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
+
         string _morada;
         public string Morada
         {

@@ -17,17 +17,25 @@
             <div id="maincol" class="col-xs-3 col-xs-offset-0 col-sm-3 col-sm-offset-0 col-md-5 col-md-offset-0 col-lg-5 col-lg-offset-0">
                 <%--Inicio do Menu Favoritos--%>
                     <%--Restaurantes favoritos--%>
-                    <asp:Panel ID="restaurantesFavoritosPanel" runat="server">
+                    <asp:Panel ID="restaurantesFavoritosPanel" runat="server" BorderWidth="1" BorderColor="Black">
                         <div class="col-xs-6 col-xs-offset-1 col-sm-6 col-sm-offset-1 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1">
                             <p>Restaurantes favoritos:</p>
                             <asp:ListView runat="server" ID="listviewrestaurantesfavoritos">
                                 <ItemTemplate>
+                                    <asp:Panel runat="server" BorderWidth="1" BorderColor="Black">
+
+                                Restaurante:
+                                    <%# Eval("nome") %>
+                                    <p></p>
+                                    Comentario:
+                                    <%# Eval("comentario") %>
+                                    </asp:Panel>
                                 </ItemTemplate>
                             </asp:ListView>
                         </div>
                     </asp:Panel>
                     <%--Pratos favoritos--%>
-                    <asp:Panel ID="pratosFavoritosPanel" runat="server">
+                    <asp:Panel ID="pratosFavoritosPanel" runat="server" >
                         <div class="col-xs-6 col-xs-offset-1 col-sm-6 col-sm-offset-1 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1">
                             <p>Pratos favoritos:</p>
                             <asp:ListView runat="server" ID="listviewpratosfavoritos">
@@ -44,6 +52,14 @@
                             <p>Restaurantes não favoritos:</p>
                             <asp:ListView runat="server" ID="listviewrestaurantesnaofavoritos">
                                 <ItemTemplate>
+                                    <asp:Panel runat="server" BorderWidth="1" BorderColor="Black">
+
+                                Restaurante:
+                                    <%# Eval("nome") %>
+                                    <p></p>
+                                    Comentario:
+                                    <%# Eval("comentario") %>
+                                    </asp:Panel>
                                 </ItemTemplate>
                             </asp:ListView>
                         </div>
@@ -70,18 +86,8 @@
                                     <div class="panel panel-default">
                                         <p>Ingredientes que não gosto:</p>
                                         <div class="panel-body">
-                                            <div class="row">
-                                                <div class="col-md-6">col1</div>
-                                                <div class="col-md-6">col2</div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">col1</div>
-                                                <div class="col-md-6">col2</div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">col1</div>
-                                                <div class="col-md-6">col2</div>
-                                            </div>
+                                            <p>Grelos</p>
+                                            <p>Salsichas</p>
                                         </div>
                                     </div>
                                 </div>
@@ -124,6 +130,15 @@
                         <p>Meus comentários:</p>
                         <asp:ListView runat="server" ID="listviewmenucomentarios">
                             <ItemTemplate>
+                                <asp:Panel runat="server" BorderWidth="1" BorderColor="Black">
+
+                                Restaurante:
+                                    <%# Eval("nome") %>
+                                    <p></p>
+                                    Comentario:
+                                    <%# Eval("comentario") %>
+                                    <asp:Button runat="server" Text="Editar" />
+                                    </asp:Panel>
                             </ItemTemplate>
                         </asp:ListView>
                     </div>
@@ -152,21 +167,21 @@
                             <div class="panel-body">
                                 <div class="row">
                                     <div class="col-md-6">Nome</div>
-                                    <div class="col-md-6">col2</div>
+                                    <div class="col-md-6">Admin</div>
                                     <div class="col-md-6">
                                         <asp:LinkButton runat="server" ID="LinkButton1">Editar</asp:LinkButton>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">Contacto</div>
-                                    <div class="col-md-6">col2</div>
+                                    <div class="col-md-6">admin@admin.com</div>
                                     <div class="col-md-6">
                                         <asp:LinkButton runat="server" ID="LinkButton2">Editar</asp:LinkButton>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6">Palavra-Passe</div>
-                                    <div class="col-md-6">col2</div>
+                                    <div class="col-md-6">******</div>
                                     <div class="col-md-6">
                                         <asp:LinkButton runat="server" ID="LinkButton3">Editar</asp:LinkButton>
                                     </div>

@@ -15,6 +15,11 @@ namespace TasteAdvisor
             if (!IsPostBack)
             {
             }
+            if (Session["user"] != null)
+            {
+                Session["user"] = null;
+                Response.Redirect("Default.aspx");
+            }
         }
 
         protected void LoginButton_Click(object sender, EventArgs e)
@@ -33,6 +38,7 @@ where email='" + emailLoginTextBox.Text + "';";
                 User utilizador = dt.AsEnumerable().Select(z => new User()
                 {
                     Email = z["email"].ToString(),
+                    Id=z["id"].ToString(),
                     Password = z["password"].ToString()
                 }).First();
                 if (utilizador.Password.Trim() != passwordLoginTextBox.Text.Trim())
@@ -43,7 +49,7 @@ where email='" + emailLoginTextBox.Text + "';";
                 {
                     invalidLogin.Text = "";
                     //propriedade a definir
-                    Master.IsLogin = true;
+                    Session["user"] = utilizador;
                     Response.Redirect("Default.aspx");
                 }
             }

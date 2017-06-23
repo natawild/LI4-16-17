@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -9,8 +10,15 @@ namespace TasteAdvisor
 {
     public partial class ClientProfile : System.Web.UI.Page
     {
+
+        #region Properties
+        User currentUser;
+        #endregion
+
         protected void Page_Load(object sender, EventArgs e)
         {
+            currentUser = Session["user"] as User;
+            currentUser.LoadSettings();
             if (!IsPostBack)
             {
                 restaurantesFavoritosPanel.Visible = false;
@@ -35,27 +43,27 @@ namespace TasteAdvisor
                 parent.Text = "Minhas Preferencias";
 
                 TreeNode child = new TreeNode();
-                    child.Text = "Favoritos";
-                    parent.ChildNodes.Add(child);
-                        TreeNode childChild = new TreeNode();
-                        childChild.Text = "Restaurantes";
-                        child.ChildNodes.Add(childChild);
-                        childChild = new TreeNode();
-                        childChild.Text = "Pratos";
-                        child.ChildNodes.Add(childChild);
-                    child = new TreeNode();
-                    child.Text = "Não Favoritos";
+                child.Text = "Favoritos";
                 parent.ChildNodes.Add(child);
-                        childChild = new TreeNode();
-                        childChild.Text = "Restaurantes";
-                        child.ChildNodes.Add(childChild);
-                        childChild = new TreeNode();
-                        childChild.Text = "Pratos";
-                        child.ChildNodes.Add(childChild);
-                    child = new TreeNode();
-                    child.Text = "Outras Preferências";
+                TreeNode childChild = new TreeNode();
+                childChild.Text = "Restaurantes";
+                child.ChildNodes.Add(childChild);
+                childChild = new TreeNode();
+                childChild.Text = "Pratos";
+                child.ChildNodes.Add(childChild);
+                child = new TreeNode();
+                child.Text = "Não Favoritos";
                 parent.ChildNodes.Add(child);
-                
+                childChild = new TreeNode();
+                childChild.Text = "Restaurantes";
+                child.ChildNodes.Add(childChild);
+                childChild = new TreeNode();
+                childChild.Text = "Pratos";
+                child.ChildNodes.Add(childChild);
+                child = new TreeNode();
+                child.Text = "Outras Preferências";
+                parent.ChildNodes.Add(child);
+
                 menuTreeView.Nodes.Add(parent);
                 parent = new TreeNode();
                 parent.Text = "Meus Comentários";
@@ -67,21 +75,6 @@ namespace TasteAdvisor
                 parent.Text = "Editar Perfil";
                 menuTreeView.Nodes.Add(parent);
 
-            }
-            TreeNode node = new TreeNode();
-            menuTreeView.FindNode("Minhas Preferências");
-            
-            foreach (TreeNode no in node.ChildNodes)
-            {
-                //if (no.Text == "Favoritos")
-                //{
-                    //outrasPreferencias.Visible = no.Selected;
-
-                //}
-                //if(no.Text == "Não Favoritos")
-                //{
-
-                //}
             }
         }
         #endregion
@@ -109,6 +102,15 @@ namespace TasteAdvisor
                 meusComentariosPanel.Visible = false;
                 minhasFotografiasPanel.Visible = false;
                 editarPerfilMainPanel.Visible = false;
+                SQL_API sql = new SQL_API();
+                string query = @"
+SELECT * from RestaurantesVisitados
+inner join Restaurante on Restaurante.id=RestaurantesVisitados.restaurante
+where utilizador='"+ currentUser.Id +"' AND favorito=1";
+                DataTable dt = sql.GetDataTable(query);
+                listviewrestaurantesfavoritos.DataSource = dt;
+                listviewrestaurantesfavoritos.DataBind();
+
             }
             else if ((sender as TreeView).SelectedNode.Text.Trim() == "Restaurantes" && (sender as TreeView).SelectedNode.ValuePath.Contains("Não Favoritos"))
             {
@@ -120,6 +122,14 @@ namespace TasteAdvisor
                 meusComentariosPanel.Visible = false;
                 minhasFotografiasPanel.Visible = false;
                 editarPerfilMainPanel.Visible = false;
+                SQL_API sql = new SQL_API();
+                string query = @"
+SELECT * from RestaurantesVisitados
+inner join Restaurante on Restaurante.id=RestaurantesVisitados.restaurante
+where utilizador='"+ currentUser.Id +"' AND naoFavorito=1";
+                DataTable dt = sql.GetDataTable(query);
+                listviewrestaurantesnaofavoritos.DataSource = dt;
+                listviewrestaurantesnaofavoritos.DataBind();
             }
             else if ((sender as TreeView).SelectedNode.Text.Trim() == "Pratos" && (sender as TreeView).SelectedNode.ValuePath.Contains("Não Favoritos"))
             {
@@ -142,6 +152,14 @@ namespace TasteAdvisor
                 meusComentariosPanel.Visible = false;
                 minhasFotografiasPanel.Visible = false;
                 editarPerfilMainPanel.Visible = false;
+                SQL_API sql = new SQL_API();
+                string query = @"
+SELECT * from RestaurantesVisitados
+inner join Restaurante on Restaurante.id=RestaurantesVisitados.restaurante
+where utilizador='"+ currentUser.Id +"' AND naoFavorito=1";
+                DataTable dt = sql.GetDataTable(query);
+                listviewrestaurantesnaofavoritos.DataSource = dt;
+                listviewrestaurantesnaofavoritos.DataBind();
             }
             else if ((sender as TreeView).SelectedNode.Text.Trim() == "Restaurantes" && (sender as TreeView).SelectedNode.ValuePath.Contains("Favoritos"))
             {
@@ -153,6 +171,14 @@ namespace TasteAdvisor
                 meusComentariosPanel.Visible = false;
                 minhasFotografiasPanel.Visible = false;
                 editarPerfilMainPanel.Visible = false;
+                SQL_API sql = new SQL_API();
+                string query = @"
+SELECT * from RestaurantesVisitados
+inner join Restaurante on Restaurante.id=RestaurantesVisitados.restaurante
+where utilizador='"+ currentUser.Id +"' AND favorito=1";
+                DataTable dt = sql.GetDataTable(query);
+                listviewrestaurantesfavoritos.DataSource = dt;
+                listviewrestaurantesfavoritos.DataBind();
             }
             else if ((sender as TreeView).SelectedNode.Text.Trim() == "Pratos" && (sender as TreeView).SelectedNode.ValuePath.Contains("Favoritos"))
             {
@@ -186,6 +212,14 @@ namespace TasteAdvisor
                 meusComentariosPanel.Visible = true;
                 minhasFotografiasPanel.Visible = false;
                 editarPerfilMainPanel.Visible = false;
+                SQL_API sql = new SQL_API();
+                string query = @"
+SELECT * from RestaurantesVisitados
+inner join Restaurante on Restaurante.id=RestaurantesVisitados.restaurante
+where utilizador='"+ currentUser.Id +"'";
+                DataTable dt = sql.GetDataTable(query);
+                listviewmenucomentarios.DataSource = dt;
+                listviewmenucomentarios.DataBind();
             }
             else if ((sender as TreeView).SelectedNode.Text.Trim() == "Minhas Fotografias")
             {

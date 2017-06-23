@@ -9,21 +9,37 @@ namespace TasteAdvisor
 {
     public partial class SiteMaster : MasterPage
     {
+
+        #region Properties
+        User currentUser;
+        #endregion
+
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            //if (!IsPostBack)
+            //{
+            //    IsLogin = false;
+            //}
+            //if (IsLogin)
+            //{
+            //    loginButtonMain.InnerText = "Terminar sessão";
+            //}
+            //else
+            //{
+            //    loginButtonMain.InnerText = "Iniciar sessão";
+            //}
+            if (Session["user"] != null)
             {
-                IsLogin = false;
-            }
-            if (IsLogin)
-            {
-                loginButtonMain.InnerText = "Terminar sessão";
+                currentUser= Session["user"] as User;
+                clientProfile.Visible = true;
+                loginButtonMain.InnerText = "Terminar Sessão";
             }
             else
             {
-                loginButtonMain.InnerText = "Iniciar sessão";
+                clientProfile.Visible = false;
+                loginButtonMain.InnerText = "Iniciar Sessão";
             }
-            
+
         }
 
         #region Properties

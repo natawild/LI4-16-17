@@ -17,7 +17,7 @@ namespace TasteAdvisor
         protected void submitBlock_Click(object sender, EventArgs e)
         {
             SQL_API sql = new SQL_API();
-            string utilizador = "21D83616-5D3F-4714-9EDE-95351874D105";
+            string utilizador = "37841934-0180-432C-9D72-945EF847E810";
             string restaurante = Request["value"].ToString().Trim();
             string query = @"
 insert into RestaurantesVisitados(id,utilizador,restaurante,favorito,naofavorito,comentario)

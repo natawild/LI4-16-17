@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Data;
 using System.Windows.Media.Imaging;
 
 namespace TasteAdvisor
@@ -14,6 +15,14 @@ namespace TasteAdvisor
 
         }
         #endregion
+
+        string _id;
+
+        public string Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
 
         #region Properties
         string _username;
@@ -50,7 +59,11 @@ namespace TasteAdvisor
 
         public List<Prato> PratosBloqueados
         {
-            get { return _pratosBloqueados; }
+            get
+            {
+                if (_pratosBloqueados == null) _pratosBloqueados = new List<Prato>();
+                return _pratosBloqueados;
+            }
             set { _pratosBloqueados = value; }
         }
 
@@ -58,7 +71,11 @@ namespace TasteAdvisor
 
         public List<Restaurante> RestaurantesBloqueados
         {
-            get { return _restauranteBloqueados; }
+            get
+            {
+                if (_restauranteBloqueados == null) _restauranteBloqueados = new List<Restaurante>();
+                return _restauranteBloqueados;
+            }
             set { _restauranteBloqueados = value; }
         }
 
@@ -79,6 +96,40 @@ namespace TasteAdvisor
         #endregion
 
         #region Methods
+
+        public void LoadRestaurantesBloqueados()
+        {
+            string query = @"
+SELECT      Restaurante.id, Restaurante.nome FROM RestaurantesVisitados
+INNER JOIN  Restaurante ON Restaurante.Id = RestaurantesVisitados.restaurante
+WHERE       RestaurantesVisitados.utilizador='" + this.Id + "' AND naoFavorito=1; ";
+            SQL_API sql = new SQL_API();
+            RestaurantesBloqueados = sql.GetDataTable(query).AsEnumerable().Select(z => new Restaurante()
+            {
+                Nome=z["nome"].ToString(),
+                Id=z["id"].ToString()
+            }).ToList();
+        }
+
+        public void LoadPratosBloqueados()
+        {
+            string query = @"
+SELECT      Prato.id, Prato.nome FROM PratosDegustados
+INNER JOIN  Prato ON Prato.Id = PratosDegustados.prato
+WHERE       PratosDegustados.utilizador='" + this.Id + "' AND naoFavorito=1; ";
+            SQL_API sql = new SQL_API();
+            PratosBloqueados = sql.GetDataTable(query).AsEnumerable().Select(z => new Prato()
+            {
+                Nome = z["nome"].ToString(),
+                Id = z["id"].ToString()
+            }).ToList();
+        }
+
+        public void LoadSettings()
+        {
+            LoadPratosBloqueados();
+            LoadRestaurantesBloqueados();
+        }
         #endregion
     }
 }

@@ -17,24 +17,68 @@ namespace TasteAdvisor
         }
 
         #region Properties
-        List<Restaurante> result;
         #endregion
 
         protected void searchButton_Click(object sender, EventArgs e)
         {
             SQL_API sql = new SQL_API();
-            string query = @"
+            if (Session["user"] == null)
+            {
+                string query = @"
 SELECT * FROM Prato
 inner join Restaurante on Restaurante.id=Prato.Restaurante
 where Prato.nome LIKE '%" + SearchParameter.Value.ToLower().Trim() + "%';";
-            DataTable dt = sql.GetDataTable(query);
-            RestauranteResult.DataSource = dt;
-            RestauranteResult.DataBind();
-            result = new List<Restaurante>();
-            result = dt.AsEnumerable().Select(z => new Restaurante()
+                DataTable dt = sql.GetDataTable(query);
+                RestauranteResult.DataSource = dt;
+                RestauranteResult.DataBind();
+            }
+            else
             {
-                Nome = z["nome1"].ToString()
-            }).ToList();
+                User tempUser = Session["user"] as User;
+                tempUser.LoadPratosBloqueados();
+                tempUser.LoadRestaurantesBloqueados();
+                string query = @"
+SELECT * FROM Prato
+inner join Restaurante on Restaurante.id=Prato.Restaurante
+where Prato.nome LIKE '%" + SearchParameter.Value.ToLower().Trim() + "%'";
+                if (tempUser.RestaurantesBloqueados.Count != 0)
+                {
+                    Restaurante last = tempUser.RestaurantesBloqueados.Last();
+                    string addBlockedRestaurantesIds = "(";
+                    tempUser.RestaurantesBloqueados.ForEach(z => 
+                    {
+                        addBlockedRestaurantesIds += "'" + z.Id + "'";
+                        if (!z.Equals(last))
+                        {
+                            addBlockedRestaurantesIds += ",";
+                        }
+                    });
+                    addBlockedRestaurantesIds += ")";
+                    query += @"
+AND Restaurante.Id NOT IN "+addBlockedRestaurantesIds;
+                }
+                if (tempUser.PratosBloqueados.Count != 0)
+                {
+                    Prato last = tempUser.PratosBloqueados.Last();
+                    string addBlockedPratosIds = "(";
+                    tempUser.PratosBloqueados.ForEach(z =>
+                    {
+                        addBlockedPratosIds += "'" + z.Id + "'";
+                        if (!z.Equals(last))
+                        {
+                            addBlockedPratosIds += ",";
+                        }
+                    });
+                    addBlockedPratosIds += ")";
+                    query += @"
+AND Prato.Id NOT IN " + addBlockedPratosIds;
+                }
+                DataTable dt = sql.GetDataTable(query);
+                RestauranteResult.DataSource = dt;
+                RestauranteResult.DataBind();
+            }
+            
+            
 
 
         }
